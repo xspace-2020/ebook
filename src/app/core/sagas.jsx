@@ -1,7 +1,6 @@
-import { call, put, select, takeLatest } from "redux-saga/effects";
+import { call, put, takeLatest } from "redux-saga/effects";
 import ServiceFactory from "../../lib/serviceFactory";
 import * as actions from "./actions";
-import * as selectors from "./selectors";
 import * as constants from "./constants";
 
 function* init() {
