@@ -26,7 +26,6 @@ function* login(action) {
     yield put(actions.loginComplete(response));
   } catch (error) {
     yield put(actions.loginError(error));
-    yield message(error);
   }
 }
 

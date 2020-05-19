@@ -1,5 +1,5 @@
 import Api from "./api";
-import services from "services";
+import services from "../services";
 import Storage from "./storage";
 
 export default class ServiceFactory {
