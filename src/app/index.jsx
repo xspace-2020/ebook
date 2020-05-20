@@ -3,6 +3,7 @@ import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import configureStore, { history } from "./store";
 import Routes from "./routes";
+import "antd/dist/antd.css";
 
 const store = configureStore();
 store.runSaga();
